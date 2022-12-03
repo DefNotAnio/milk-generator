@@ -23,12 +23,12 @@ contains:Upgrades, Achievements
 names:hide
 *milk
 name:Milk
-desc:The product(in this game, milk)
+desc:The product count of milk
 show earned
 show max
 *money
 name:Money
-desc:Used to buy stuffs, buildings, etc.
+desc:Used to buy stuffs and buildings and more
 show earned
 show max
 *makeMilk
