@@ -25,3 +25,7 @@ names:hide
 name:Milk
 desc:Yields milk.
 on click:yield 1 milk
+*money
+name:Sell Milk
+desc:Sell Milk for money to buy.
+on click: yield milk:earned money, lose milk:earned milk
