@@ -1,4 +1,4 @@
-**# milk-generator / under construction**
+# **milk-generator / under construction**
 A simple indie game where you can generate milk and sell it for money to buy items!
 You can also buy buildings to make milk for you without even clicking!
 Get achievements, create other products and become the biggest company to ever exist!
