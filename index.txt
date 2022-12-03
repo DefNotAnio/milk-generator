@@ -20,7 +20,7 @@ name:milk
 desc:The product count of Milk
 show earned
 show max
-/*
+*/
 *money
 name:money
 desc:Used to buy stuffs and buildings and more
@@ -42,7 +42,7 @@ on click:yield 1 milk
 name:sell milk
 desc:Sell Milk for money to buy.
 on click: yield milk:earned money, lose milk:earned milk
-/*
+*/
 *make money
 name:Money
 desc:Yields money
