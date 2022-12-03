@@ -1,5 +1,5 @@
 Let's make a game!
-name:Milk Generator
+name:milk-generator
 author:AnioTheFirst
 desc:The first ever version of Milk Generator!
 created:3/12/2022
