@@ -22,20 +22,20 @@ tooltip origin:left
 contains:Upgrades, Achievements
 names:hide
 *milk
-name:Milk
+name:milk
 desc:The product count of milk
 show earned
 show max
 *money
-name:Money
+name:money
 desc:Used to buy stuffs and buildings and more
 show earned
 show max
 *makeMilk
-name:Yield Milk
+name:yield milk
 desc:Yields milk.
 on click:yield 1 milk
 *sellformoney
-name:Sell Milk
+name:sell milk
 desc:Sell Milk for money to buy.
 on click: yield milk:earned money, lose milk:earned milk
