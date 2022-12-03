@@ -14,13 +14,6 @@ Layout
 *resources
 contains:Resources
 header:Your resources.
-*buildings
-contains:Buildings
-header:Buildings
-tooltip origin:left
-*unlockables
-contains:Upgrades, Achievements
-names:hide
 *milk
 name:milk
 desc:The product count of milk
@@ -31,6 +24,13 @@ name:money
 desc:Used to buy stuffs and buildings and more
 show earned
 show max
+*buildings
+contains:Buildings
+header:Buildings
+tooltip origin:left
+*unlockables
+contains:Upgrades, Achievements
+names:hide
 *makeMilk
 name:yield milk
 desc:Yields milk.
