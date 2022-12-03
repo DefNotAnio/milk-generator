@@ -23,9 +23,19 @@ contains:Upgrades, Achievements
 names:hide
 *milk
 name:Milk
+desc:The product(in this game, milk)
+show earned
+show max
+*money
+name:Money
+desc:Used to buy stuffs, buildings, etc.
+show earned
+show max
+*makeMilk
+name:Yield Milk
 desc:Yields milk.
 on click:yield 1 milk
-*money
+*sellformoney
 name:Sell Milk
 desc:Sell Milk for money to buy.
 on click: yield milk:earned money, lose milk:earned milk
