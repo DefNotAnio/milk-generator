@@ -16,7 +16,7 @@ contains:Resources
 header:Your resources.
 *milk
 name:milk
-desc:The product count of milk
+desc:The product count of Milk
 show earned
 show max
 *money
