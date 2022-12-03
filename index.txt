@@ -14,11 +14,13 @@ Layout
 *resources
 contains:Resources
 header:Your resources.
+/*
 *milk
 name:milk
 desc:The product count of Milk
 show earned
 show max
+/*
 *money
 name:money
 desc:Used to buy stuffs and buildings and more
@@ -31,6 +33,7 @@ tooltip origin:left
 *unlockables
 contains:Upgrades, Achievements
 names:hide
+/*
 *makeMilk
 name:yield milk
 desc:Yields milk.
@@ -39,3 +42,8 @@ on click:yield 1 milk
 name:sell milk
 desc:Sell Milk for money to buy.
 on click: yield milk:earned money, lose milk:earned milk
+/*
+*make money
+name:Money
+desc:Yields money
+on click: yield 1 money
