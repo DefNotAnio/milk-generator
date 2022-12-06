@@ -1,4 +1,5 @@
 // what a really long comment got too bored that instead of working on the code, made a really long comment, i need go get a life
+var tick = new this(persectick,buildinga,multi,boost);
 var game = {
   "source": {
     "milk": 0,
@@ -17,7 +18,8 @@ var game = {
   "pboost": {
     "clickmulti": 1,
     "moneypermilk": 5,
-    "perclick": 1
+    "perclick": 1,
+    "tickboost": 1
   }
 }
 
@@ -35,3 +37,18 @@ function msell(multi,mpm) {
     game.source.milk -= mpm;
   }
 }
+
+function mbuy(amount,type,name) {
+  let x = amount;
+  if (type == "building") {
+    if (name == "cowfarm") {
+      if (game.source.money < game.source.buildings.cowfarm.cost) {
+        console.error("Not enough money.");
+      } else {
+        game.source.buildings.cowfarm.amount += x;
+        game.source.money -= x * game.source.buildings.cowfarm.cost;
+        
+      }
+    }
+  }
+},
